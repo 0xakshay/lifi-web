@@ -58,6 +58,17 @@ export const defaultTokens: { [ChainKey: string]: Array<Token> } = {
       name: 'Metis Token',
       symbol: 'Metis',
     },
+    
+    // Partners
+    // > RFG: https://bscscan.com/token/0x4477b28e8b797ebaebd2539bb24290fdfcc27807
+    {
+      address: '0x4477b28e8b797ebaebd2539bb24290fdfcc27807',
+      chainId: ChainId.BSC,
+      decimals: 18,
+      logoURI: 'https://assets.coingecko.com/coins/images/21432/small/photo-2021-08-31-22-54-36-1.jpg',
+      name: 'Refugees Token',
+      symbol: 'RFG',
+    },
   ],
   [ChainKey.POL]: [
     findDefaultToken(CoinKey.MATIC, ChainId.POL),
